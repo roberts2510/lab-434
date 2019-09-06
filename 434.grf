@@ -1,0 +1,72 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.2805602721874
+xMax = 8.57120513892371
+xTickUnit = 0.5
+xGridUnit = 0.5
+xLabel = D
+yMin = -0.794249763635947
+yMax = 10.1407502474752
+yTickUnit = 1
+yGridUnit = 1
+yLabel = D_l  /   D_c
+AxesColor = clBlue
+GridColor = 0x00FF9999
+NumberFont = Times New Roman,18,clBlack
+LabelFont = Times New Roman,24,clBlack,B
+LegendFont = Times New Roman,36,clBlack
+ShowLegend = 1
+Radian = 1
+LegendPlacement = 0
+LegendPos = 5.44211896954406,9.46389330043253
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 5
+Style = 0
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 6
+Points = 1,0.86;1.7,1.4;2.2,1.82;3.2,2.54;4.2,3.93;5,4.54;
+LegendText = D_l
+
+[PointSeries2]
+FillColor = clBlue
+LineColor = clBlue
+Size = 5
+Style = 3
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 6
+Points = 1,1.11;1.7,1.93;2.7,3.32;3.2,3.32;4,4.16;5,5.55;
+LegendText = D_c
+
+[Func1]
+FuncType = 0
+y = 1.09530599*x+0
+ShowInLegend = 0
+LegendText = f(x)=1.0953*x+0; R²=0.9819
+Color = clLime
+
+[Func2]
+FuncType = 0
+y = 0.88586268*x+0
+ShowInLegend = 0
+LegendText = f(x)=0.8859*x+0; R²=0.9838
+Color = clBlue
+
+[Data]
+TextLabelCount = 0
+FuncCount = 2
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

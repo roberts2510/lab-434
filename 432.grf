@@ -1,0 +1,62 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.09770012
+xMax = 1.37666394
+xTickUnit = 0.15
+xGridUnit = 0.15
+xAutoTick = 0
+xLabel = 1/v, 1/МГц
+yMin = -178.28712051
+yMax = 2067.16933487
+yTickUnit = 200
+yGridUnit = 200
+yLabel = Λ, мкм
+AxesColor = clBlue
+GridColor = 0x00FF9999
+NumberFont = Times New Roman,20,clBlack
+LabelFont = Times New Roman,28,clBlack,B
+LegendFont = Times New Roman,28,clBlack
+ShowLegend = 0
+Radian = 1
+Title = Зависимость Λ(1/v)
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 5
+Style = 0
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 6
+Points = 0.96,1450;0.95,1397;0.67,859;0.63,870;0.53,712;0.38,725;
+LegendText = Ряд 1
+
+[Func1]
+FuncType = 0
+y = 1452.45541484*x+0
+LegendText = f(x)=1452.4554*x+0; R²=0.9068
+From = 0
+To = 1.2
+Color = clRed
+
+[Label1]
+Placement = 0
+Pos = 0.429933084098627;1121.88378684343
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\f0\\fs72 y=1452x\\lang1049\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 1
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

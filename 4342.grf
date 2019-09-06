@@ -1,0 +1,71 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.89859417543005
+xMax = 23.79276384957
+xTickUnit = 1
+xGridUnit = 1
+xLabel = 1/d(c), *10^3  1/m
+yMin = -0.0596085949640041
+yMax = 1.174959304036
+yTickUnit = 0.1
+yGridUnit = 0.1
+yLabel = dy, mm
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,24,clBlack,B
+LegendFont = Times New Roman,28,clBlack
+ShowLegend = 0
+Radian = 1
+Title = Зависимость dy от 1/d(c)
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clRed
+Size = 5
+Style = 0
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 4
+Points = 20,0.69;15,0.73;4.34,0.52;3.03,1;
+LegendText = Ряд 1
+
+[PointSeries2]
+FillColor = clRed
+LineColor = clRed
+Size = 5
+Style = 1
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 1
+Points = 7.7,0.39;
+LegendText = Ряд 2
+
+[Func1]
+FuncType = 0
+y = -0.00541177*x+0.79232418
+LegendText = f(x)=-0.0054*x+0.7923; R²=0.0505
+From = 0
+To = 24
+Color = clBlue
+
+[Label1]
+Placement = 0
+Pos = 5.88613029645406;0.908888636148067
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\f0\\fs96 y=-0.0054x+0.8\\lang1049\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 1
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
